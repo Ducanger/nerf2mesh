@@ -228,7 +228,7 @@ if __name__ == "__main__":
 
     print(f"camera:\n\tres={w,h}\n\tcenter={cx,cy}\n\tfocal={fl_x,fl_y}\n\tfov={fovx,fovy}\n\tk={k1,k2} p={p1,p2} ")
 
-with open(os.path.join(TEXT_FOLDER, "images.txt"), "r") as f:
+    with open(os.path.join(TEXT_FOLDER, "images.txt"), "r") as f:
         i = 0
 
         bottom = np.array([0.0, 0.0, 0.0, 1.0]).reshape([1, 4])
